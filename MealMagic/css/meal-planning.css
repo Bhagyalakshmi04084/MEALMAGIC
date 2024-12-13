@@ -1,0 +1,49 @@
+/* Meal Planning Styles */
+.meal-planning {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .meal-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .meal {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .meal h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .meal ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .meal ul li {
+    font-size: 1.1rem;
+    margin: 5px 0;
+  }
+  
+  /* Button style */
+  .meal-planning .btn {
+    margin-top: 30px;
+    width: 200px;
+    background-color: #ff6f61;
+    border: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
